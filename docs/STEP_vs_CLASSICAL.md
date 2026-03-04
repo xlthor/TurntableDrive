@@ -34,7 +34,7 @@
 | DIY friendliness | Excellent | Medium | Harder |
 | Maintenance | Low-current heating to monitor | Belt replacement | Rare |
 
-## 4️⃣ Specialized Case: Your Setup
+## 4️⃣ Specialized Case: The Current Setup
 
 - Heavy turntable (3 kg) + belt + minimal motor current → natural damping of microstep vibrations.
 - Step resolution at platter with 0.9° motor and 4.4× belt ratio: ~0.2045° per step → almost imperceptible.
@@ -49,6 +49,7 @@
 
 ## 5️⃣ Visualization
 
-![Stepper Motor Turntable Infographic](./images/a_detailed_infographic.png)
+- ![Stepper Motor Turntable Infographic](./images/a_pair_of_digital_illustrations.png)
+- ![Stepper Motor Turntable Infographic](./images/a_detailed_infographic.png)
 
 *Figure: Stepper motor driving a 3 kg turntable via belt, showing step resolution (~0.2045° per step), gear ratio, microsteps, and speed control profile at 33⅓ and 45 RPM.*
