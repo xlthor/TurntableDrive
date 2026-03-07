@@ -27,12 +27,14 @@ LEDs indicate whether the target speed has been reached.
 ---
 
 ## Hardware
-- Arduino (Uno, Nano, or compatible)
-- Stepper motor (0.9° or 1.8° step angle, adjusted for microsteps)
+- Arduino Uno
+- NEMA14 stepper motor with 0.9° step angle, 500 mA and 7 Ncm torque, adjusted for microstepping
 - TMC2209 stepper driver
 - Switch for speed selection
-- Potentiometer for fine speed adjustment
+- Potentiometer for fine speed adjustment. I used a ten-gear high-precision potentiometer for fine-tuning
 - LEDs (green/red) for status
+- current regulators (5V, 6V)
+- Power supply 12V/2A (external)
 - Wiring according to pinout:
 
 | Function            | Arduino Pin |
@@ -45,6 +47,9 @@ LEDs indicate whether the target speed has been reached.
 | UART TX (SoftSerial)| 7          |
 | Green LED           | 11         |
 | Red LED             | 9          |
+
+The entire setup has been designed into a shield which could be plugged on top of the arduino. Cabling therefor is reduced to 4 wires to the stepper, two wires to the switch and two wires to potentiometer. A standard power supply with 12V/2A is benn used. On the shield, there are two active current regulators: 5V for the Arduino and 6V for the stepper.
+
 
 ---
 
