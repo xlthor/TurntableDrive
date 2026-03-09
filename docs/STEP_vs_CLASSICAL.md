@@ -37,7 +37,7 @@
 ## 4️⃣ Specialized Case: The Current Setup
 
 - Heavy turntable (3 kg) + belt + minimal motor current → natural damping of microstep vibrations.
-- Step resolution at platter with 0.9° motor and 4.4× belt ratio: ~0.2045° per step → almost imperceptible.
+- Step resolution at platter with 0.9° motor and 4.4× belt ratio: ~0.2045° per step → almost imperceptible. Furthermore, the stepper is controlled in microstepping, which results in around 1.760 steps per one turn.
 - Arduino/TMC2209 software control allows smooth acceleration/deceleration → no audible ticks.
 - This is **different from typical DIY projects**, which often use lighter platters and higher motor current, resulting in audible stepper artifacts.
 
