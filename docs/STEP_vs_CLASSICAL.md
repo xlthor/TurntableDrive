@@ -2,10 +2,17 @@
 
 The general problem with turntable drives is twofold: maintaining the exact speed and reducing drive noise and possible hysteresis fluctuations through motor control. Technical solutions to this problem are usually:
 - Synchronous motor with fixed speed and mechanical speed changeover (friction wheel, belt)
+- Synchronous motor with frequeny adjustment to control RPMs, evtl. combined with an electronic feedback loop for speed control
 - Direct drive with feedback loop to control the effective speed
 - Mass drive with a weak motor and high inertia mass of the turntable, possibly combined with electronic control
 
 Another alternative presented here is a drive with a stepper motor. Stepper motors can be perfectly controlled to a given number of steps and thus rotational speed. With a suitable control system, the usual disadvantages of single-step control can be completely avoided. With a sufficiently high number of steps per revolution, combined with a mass drive and low gear ratio, interference from the stepper motor can be completely suppressed.
+
+Several factors are crucial here: the choice of stepper motor and the electronic control system:
+- The stepper motor should have low torque, ideally just enough to drive the turntable. Standard stepper motors, such as those used in 3D printers, are therefore not suitable.
+- Voltage and current consumption should be kept as low as possible.
+- The electronics should be able to operate the stepper in microstepping mode, e.g., 4 or 8 microsteps/step.
+- The control signal should be sinusoidal in order to prevent the usual harsh clicking noises from steppers.
 
 The following are the advantages and disadvantages of the setup described:
 
