@@ -1,5 +1,14 @@
 # Stepper Motor vs. Classical Platter Drive – Audiophile Comparison
 
+The general problem with turntable drives is twofold: maintaining the exact speed and reducing drive noise and possible hysteresis fluctuations through motor control. Technical solutions to this problem are usually:
+- Synchronous motor with fixed speed and mechanical speed changeover (friction wheel, belt)
+- Direct drive with feedback loop to control the effective speed
+- Mass drive with a weak motor and high inertia mass of the turntable, possibly combined with electronic control
+
+Another alternative presented here is a drive with a stepper motor. Stepper motors can be perfectly controlled to a given number of steps and thus rotational speed. With a suitable control system, the usual disadvantages of single-step control can be completely avoided. With a sufficiently high number of steps per revolution, combined with a mass drive and low gear ratio, interference from the stepper motor can be completely suppressed.
+
+The following are the advantages and disadvantages of the setup described:
+
 ## 1️⃣ Stepper Motor Drive
 
 **Advantages**
