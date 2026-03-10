@@ -12,7 +12,7 @@ Several factors are crucial here: the choice of stepper motor and the electronic
 - The stepper motor should have low torque, ideally just enough to drive the turntable. Standard stepper motors, such as those used in 3D printers, are therefore not suitable.
 - Voltage and current consumption should be kept as low as possible.
 - The electronics should be able to operate the stepper in microstepping mode, e.g., 4 or 8 microsteps/step.
-- The control signal should be sinusoidal in order to prevent the usual harsh clicking noises from steppers. The TMC-2209 driver controler provide a "low-noise.mode" which uses sinusoidal step control in order to reduce almost all noise of the motor. Furthermore, the motor is mounted into a 2Kg brass housing with rubber dampers which eliminates any distortion ( in German "Motor-Dose" )
+- The control signal should be sinusoidal in order to prevent the usual harsh clicking noises from steppers. The TMC-2209 driver controler provide a "low-noise.mode" which uses sinusoidal step control in order to reduce almost all noise of the motor. Furthermore, the motor is mounted into a 2Kg brass housing with rubber dampers and decoupled from the truntable itself, which eliminates any distortion ( in German "Motor-Dose" )
 
 Image of the NEMA14 Motor used in this setup:
 
