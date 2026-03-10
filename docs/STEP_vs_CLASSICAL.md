@@ -72,4 +72,4 @@ The following are the advantages and disadvantages of the setup described:
 
   
 
-*Figure: Stepper motor driving a 3 kg turntable via belt, showing step resolution (~0.2045° per step), gear ratio, microsteps, and speed control profile at 33⅓ and 45 RPM.*
+*Figure: Stepper motor driving a 3 kg turntable via belt, showing step resolution (~0.2045° per step), gear ratio, microsteps, and belt drive calculations at 33⅓ and 45 RPM.*
