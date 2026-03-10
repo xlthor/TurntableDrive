@@ -16,8 +16,8 @@ Several factors are crucial here: the choice of stepper motor and the electronic
 
 Image of the NEMA14 Motor used in this setup:
 
-
 ![Stepper Motor Turntable Image](./images/NEMA14.jpg)
+![Stepper Motor Turntable Image](./images/NEMA14-2.jpg)
 
 The following are the advantages and disadvantages of the setup described:
 
